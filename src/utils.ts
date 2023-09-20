@@ -1,4 +1,6 @@
-export const benefits = [
+import { iCard } from "./models";
+
+export const initialBenefits: iCard[] = [
   {
     id: 1,
     icon: "./illustration-passions.svg",
