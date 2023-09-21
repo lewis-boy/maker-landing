@@ -3,10 +3,9 @@ import { iCard } from '~/models'
 
 interface CardProps {
     benefit: iCard,
-    key: number
 }
 
-const Card = ({ benefit, key }: CardProps) => {
+const Card = ({ benefit }: CardProps) => {
     return (
         <div className='flex flex-col items-center gap-8'>
             <div className='flex items-center justify-center w-[120px] h-[120px] bg-dark-blue rounded-[45px]'>

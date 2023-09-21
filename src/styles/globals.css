@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.check {
+  padding-left: 1.6em;
+  margin-bottom: 0.8em;
+}
+.check-b {
+  padding-left: 1.6em;
+  margin-bottom: 0.8em;
+}
+
+.check::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 0.8em;
+  height: 0.8em;
+  background-repeat: no-repeat;
+  background-image: url(/icon-check-green.svg);
+  background-size: 100%;
+}
+.check-b::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 0.8em;
+  height: 0.8em;
+  background-repeat: no-repeat;
+  background-image: url(/icon-check.svg);
+  background-size: 100%;
+}
